@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import precision_score, recall_score, f1_score
 
 # Load Iris dataset
-csv_file = './Datasets/Iris.csv'
+csv_file = '../Datasets/iris.csv'
 
 # Load the Iris dataset from a CSV file
 df = pd.read_csv(csv_file)
@@ -120,4 +120,4 @@ print(f'Recall: {recall:.4f}')
 print(f'F1 Score: {f1:.4f}')
 
 # Save the model weights
-torch.save(model.state_dict(), './Models/iris.pth')  # .pth is the recommended extension
+torch.save(model.state_dict(), '../Models/iris.pth')  # .pth is the recommended extension
