@@ -1,4 +1,5 @@
 Datasets/
 .tmp.driveupload/
 .tmp.drivedownload/
-TransformerFull.ipynb
+TransformerFull_local.ipynb
+TransformerFull_colab.ipynb
